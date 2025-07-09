@@ -1,15 +1,24 @@
 package com.monocept.journalApp.entity;
 
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.time.LocalDateTime;
+
+@Document(collection = "journal_entries")
 public class JournalEntry {
-    private long id;
+    @Id
+    private ObjectId id;
     private String title;
     private String description;
+    private LocalDateTime dateTime;
 
-    public long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 
@@ -27,5 +36,13 @@ public class JournalEntry {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
+
+    public void setDateTime(LocalDateTime dateTime) {
+        this.dateTime = dateTime;
     }
 }

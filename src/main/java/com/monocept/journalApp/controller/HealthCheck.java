@@ -10,9 +10,4 @@ public class HealthCheck {
     public String healthCheck() {
         return "Ok";
     }
-
-    @GetMapping("/ok")
-    public String car() {
-        return "Hello from Car";
-    }
 }

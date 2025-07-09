@@ -42,6 +42,12 @@
 			<scope>test</scope>
 		</dependency>
 
+<!--	Spring Data Mongodb -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
