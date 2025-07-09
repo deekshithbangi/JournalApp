@@ -1,13 +1,13 @@
-package com.monocept.myFirstProject;
+package com.monocept.journalApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyFirstProjectApplication {
+public class JournalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyFirstProjectApplication.class, args);
+		SpringApplication.run(JournalApplication.class, args);
 	}
 
 }

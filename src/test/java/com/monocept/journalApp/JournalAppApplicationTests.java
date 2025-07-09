@@ -1,10 +1,10 @@
-package com.monocept.myFirstProject;
+package com.monocept.journalApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MyFirstProjectApplicationTests {
+class JournalAppApplicationTests {
 
 	@Test
 	void contextLoads() {
