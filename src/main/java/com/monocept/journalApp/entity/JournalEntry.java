@@ -8,15 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
 
 @Document(collection = "journal_entries")
-
 @Data
-//@Getter
-//@Setter
-//@NoArgsConstructor
-//@AllArgsConstructor
-//@ToString
-//@EqualsAndHashCode
-//@Builder
 public class JournalEntry {
     @Id
     private ObjectId id;
