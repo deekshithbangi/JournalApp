@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 public class JournalEntry {
     @Id
     private ObjectId id;
+    @NonNull
     private String title;
     private String description;
     private LocalDateTime dateTime;

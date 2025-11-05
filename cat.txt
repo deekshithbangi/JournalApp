@@ -1,0 +1,35 @@
+commit fd0d85fc1e9f8205f405a86f18c7f35061046645
+Author: deekshithbangi <deekshithbangi1@gmail.com>
+Date:   Sat Jul 19 22:51:53 2025 +0530
+
+    Added: Mongodb relations - @DBRef Annotation
+
+commit f98084409986cb1c56423f5f015eb8ddf066327e
+Author: deekshithbangi <deekshithbangi1@gmail.com>
+Date:   Wed Jul 9 12:56:51 2025 +0530
+
+    Added: Lombok Functionality
+
+commit bdbdbb7b8236f15d5e5f024491cee6d13a3f5904
+Author: deekshithbangi <deekshithbangi1@gmail.com>
+Date:   Wed Jul 9 12:48:31 2025 +0530
+
+    Added: HTTP Status Codes
+
+commit 6b723f27b680a807b39da2c32b51d627c5a1bf9b
+Author: deekshithbangi <deekshithbangi1@gmail.com>
+Date:   Wed Jul 9 12:37:09 2025 +0530
+
+    Added: Mongodb Integration
+
+commit e4ee5bc11122ca745fad643b106d91031bd06043
+Author: deekshithbangi <deekshithbangi1@gmail.com>
+Date:   Wed Jul 9 12:13:37 2025 +0530
+
+    REST-API
+
+commit 0999e365af18f408123a435cbc82a89518e12c81
+Author: deekshithbangi <deekshithbangi1@gmail.com>
+Date:   Wed Jul 9 11:32:48 2025 +0530
+
+    myFirstProject
