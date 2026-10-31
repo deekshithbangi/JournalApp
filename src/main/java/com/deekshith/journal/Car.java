@@ -1,6 +1,5 @@
 package com.deekshith.journal;
 
-import com.deekshith.example.Dog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,4 +13,5 @@ public class Car {
     public String ok() {
         return dogObj.fun();
     }
+
 }
